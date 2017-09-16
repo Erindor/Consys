@@ -1,0 +1,41 @@
+<!-- Este arquivo é a view da atividade -->
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Atividade 6 </title>
+    </head>
+    
+    <body>
+        <h1> Compra Consys:  </h1>
+        
+        <form method="POST" action="calcularTroco.php">
+            <table>
+                <tr>
+                    <td>
+                        <label for="totalCompra"> Total da compra:</label>
+                    </td>
+                    <td>
+                        R$ <input type="number" min="1" id="totalCompra" name="totalCompra" pattern="\d+" title="Digite um numero inteiro positivo"/>   
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="valorPago"> Valor pago:</label>
+                    </td>
+                    <td>
+                        R$ <input type="number" min="1" id="valorPago" name="valorPago" pattern="\d+" title="Digite um numero inteiro positivo"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Calcular Troco"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</hmtl>
+
