@@ -30,20 +30,19 @@ function calcularTrocoRecursivo($troco, $valorNota){
 }
 
 
-$valorTotal = $_POST["totalCompra"];
-$valorPago  = $_POST["valorPago"];
+$valorTotal = $_POST["totalCompra"]; //recebe o valor total da compra digitado no formulário
+$valorPago  = $_POST["valorPago"];   //recebe o valor pago pelo cliente
 
+//caso o valor pago seja insuficiente, exibe uma mensagem na tela sobre quanto está faltado
 if ($valorTotal > $valorPago){
     echo "Dinheiro insuficiente para pagar a compra, faltam: R$" . ($valorTotal - $valorPago);
 }
-else if ($valorTotal == $valorPago){
+else if ($valorTotal == $valorPago){ //caso os valores sejam iguais, não será necessario troco
     echo "Valor pago certinho, nao sera necessario troco!   =)";
 }
-else{
-    $troco = $valorPago - $valorTotal;
-    echo "Troco: R$" . $troco . "<br/>";
-    calcularTrocoRecursivo($troco, 100);
+else{ //se o cliente pagou mais que o total da compra, FAÇA:
+    $troco = $valorPago - $valorTotal;      //calcula o troco que deve ser entregue para o cliente
+    echo "Troco: R$" . $troco . "<br/>";    //exibe uma mensagem com o troco que dgeve devolvido
+    calcularTrocoRecursivo($troco, 100);    //faz o cálculo recursivamente de quato de cada nota deve ser entregue ao cliente
 }
-
-
 ?>
