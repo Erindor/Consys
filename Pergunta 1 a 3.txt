@@ -1,0 +1,67 @@
+1 - Me conte sobre alguma tecnologia que você gosta bastante e diga porquê eu deveria aprendê-la.
+
+    Eu estou num processo de me encontrar em determinada tecnologia, e por isso
+    sempre quando inicio um novo projeto procuro realizá-lo em uma nova linguagem.
+    
+    Assim, no útimo projeto que fui alocado, tive a oportunidade de realizar 
+    um simples CRUD de controle de contratos em qualquer tipo de tecnologia e,
+    nesse dia, tive o primeiro contato com o AngularJS.
+    
+    AngularJS é um framework em javascript para o front-end que permite realizar 
+    aplicações WEB single page, com quase ou nenhum reload, podendo rodar aplicações
+    inteiras no navegador do cliente, realizando poucas conexões necessários no back-end.
+    Muitos consideram uma extensão do HTML.
+    
+    Enquanto estudava Angular, a primeira coisa que vi para querer estudar este framework
+    foi a directive 'ng-repeate'. Directivas são atributos que fazem a extensão do HTML.
+    Esta directiva é simples, porém extremamente útil. Ela repete determinada(s) tag(s)
+    do HTML dependendo do seu critério. Por exemplo, ela pode exibir uma array inteira
+    com poucas linhas de código.
+    
+    O desempenho é extremamente alto com o angular devido a maior parte das regras de negócio
+    estarem ao lado do cliente. A curva de aprendizagem é fácil, porém quando começamos 
+    a nos aprofundar mais no framework as coisas começam a complicar um pouco, mas possui uma comunidade
+    crescente e bastante sólida que auxiliam as dúvidas que possuímos.
+    
+    Portanto, AngularJS é um tecnologia que gosto e que recomendo estudá-la, possui muitas
+    vantagens, no quesito desempenho, aprendizagem, facilidade na leitura do código,
+    etc. Eu ainda estou aprendendo sobre ela e a cada dia descubro uma funcionalidade nova
+    que me admira para o desenvolvimento web.
+    
+    
+2 - Me conte sobre alguma coisa da qual você se orgulha de ter feito. Pode ser algo
+no âmbito profissional ou pessoal. Por quê você se orgulha disso?
+
+    Desde 2016 a universidade que estudo (UVV) realiza um evento chamada Maratona
+    Tecnológica, e já participei 2 vezes, onde vários cursos tecnológicos se unem
+    com períodos diferentes para apresentar alguma inovação.
+    
+    O diferencial deste ano é que fui o líder da minha equipe de Ciência da Computação.
+    Foi uma experiência bastante gratificante, pois nunca tive que unir uma equipe de 20
+    pessoas onde ninguém se conhecia direito. Tivemos algumas dificuldades no início,
+    pois 80% dos integrantes do grupo eram iniciantes e conheciam o básico de programação.
+    Mas conseguimos distribuir o grupo em equipes, onde um ajudava o outro até chegarmos ao 
+    objetivo final.
+    
+    Me lembro das reuniões que tínhamos para resolver os problemas, dos protótipos
+    que criávamos, das discussões e das conquistas, com muito orgulho. Foi uma experiência
+    única de cooperação e trabalho em equipe que foi bem desafiador para mim, mas conseguimos
+    alcançar o objetivo final com sucesso.
+    
+    Fizemos uma aplicação WEB que identificava a possível causa de uma doença do cãozinho
+    a partir de determinados sintomas. Foi tudo desenvolvido em PHP e você pode conferir
+    no nosso repositório do GIT.
+    https://github.com/Erindor/O-que-ele-tem-
+    
+3 - Escreva algo que você gostaria de me contar sobre você.
+    Sou uma pessoa alegre, organizada e gosto de trabalhar em equipe quando
+    todos cooperam. Nos meus momentos livres gosto de pedalar, ler e sempre tento
+    me manter informado sobre notícias atuais.
+    
+    Meu interesse pela tecnologia vem desde a adolescência, quando me admirava com
+    as inúmeras possibilidades que a inovação tecnológica pode proporcionar e, movido
+    também pela curiosidade, comecei a investigar esta área e dessa forma escolhi
+    estudar Ciência da Computação para me aprofundar no assunto.
+    
+    
+    
